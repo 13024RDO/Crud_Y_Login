@@ -13,6 +13,7 @@ app.use(morgan("dev"));
 app.use(urlencoded({ extended: false }));
 
 //routers
+app.user("/", require("./routers/usuarios.routers"))
 
 //settings
 app.set("port", process.env.PORT || 4000);

@@ -1,5 +1,8 @@
 node_modules
+<<<<<<< HEAD
 .env
+=======
+>>>>>>> 45a031ab246a50cf2f32afeb3657e4fbc7f4fc2d
 frontend-2
 yarn.lock
 .vscode
